@@ -1,0 +1,337 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 40px;
+}
+body{
+  margin: 0px;
+}
+img:first-child{
+  margin-left: 100px;
+  margin-top: 5px;
+}
+nav div:first-child ,nav div:last-child{
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  display: grid;
+  grid-template-columns: 700px 280px;
+  column-gap: 150px;
+  position: absolute;top: 20px; 
+  margin-left: 300px;
+}
+
+nav+div div div{
+position: relative; top: 200px;
+margin-left: 800px ;
+}
+nav+div div div h1{
+  margin: 0px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+nav+div div div p{
+  margin:0px
+}
+nav+div div div button,.neo button,.g1 button ,.mobil button,.Tv button,.home button{
+  border-radius: 15px;
+  width: 90px;
+  height: 33px;
+  margin-top: 15px;
+  font-size: 19px;
+  border: none;
+}
+nav+div{
+  background-image: url("https://images.samsung.com/is/image/samsung/assets/in/home/1440x640-copy-21.jpg?imwidth=768");
+  height: 90vh;
+  width: 95vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 30px;
+}
+.back h1{
+  text-align: center;
+}
+.new{
+  display: flex;
+  justify-content: center;
+}
+.new p{
+  margin-right: 35px;
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.neo{
+  background-image: url("https://images.samsung.com/is/image/samsung/assets/in/home/Banner_684x684px_3.jpg?$684_684_JPG$");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 680px;
+  width: 680px;
+  margin-left: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  
+}
+.neo div{
+  color: white;
+  text-align: center;
+  padding-top: 450px;
+}
+h3{
+  font-size: 35px;
+  margin: 0px;
+}
+.neo:hover p,.neo button{
+  visibility: hidden;
+  transition: 0.05s;
+}
+.neo:hover button{
+  visibility: visible;
+  transition: 0.35s;
+  margin-top: -10px;
+}
+.neo:hover{
+ background-size:100% 109%;
+}
+.g1{
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/Fold5-Flip5-Small_Tile_330x3302.jpg?$330_330_JPG$);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h4{
+  margin: 0px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.flex{
+  display: flex;
+  justify-content:space-around;
+}
+.g1{
+  width: 350px;
+  height: 330px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.g1 button,.mobil button,.home button{
+  background-color: black;
+  color: white;
+}
+.g1 div{
+  padding-top: 220px;
+  text-align: center;
+}
+.g1 p,a,button{
+  margin: 0px;
+}
+.g1:hover p,.g1 button{
+  visibility: hidden;
+  transition: 0.05s;
+}
+.g1:hover button {
+  visibility: visible;
+  transition: 0.4s;
+  margin-top: -9px;
+}
+.g1:hover{
+  background-size:100% 105%;
+}
+#g2{
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/0814/SmallTile_330x330-EPPGeneric.jpg?$330_330_JPG$);
+}
+#g3{
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/Small_Tile_330x330_8kg_AI_Ecobubble.jpg?$330_330_JPG$);
+}
+#g4{
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/TabS9_Series_330x3303.jpg?$330_330_JPG$);
+}
+.gal{
+  display: flex;
+  justify-content: center;
+}
+.gal a{
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+.mobil,.Tv,.home{
+  text-align: center;
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/0814/Fold5ProductMarketing_1440x810.jpg?$1440_810_JPG$);
+  height: 100vh;
+  width: 95vw;
+  margin:  0px 20px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mobil h1,.Tv h1,.home h1,.rec h1{
+  font-size: 55px;
+  margin: 0px;
+}
+.home div:first-child,.Tv div:first-child{
+  margin-top: 20px;
+}
+.gal+div,.Tv div:last-child,.home div:last-child{
+  margin-top: 475px;
+}
+.mobil p,.Tv p,.home p{
+  margin: 0px ;
+  font-size: 20px;
+}
+.Tv{
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/Neo_Qled_8K_1440x810.jpg?$1440_810_JPG$);
+  color: white;
+  margin-top: 0px;
+}
+.Tv a,.home a{
+  color: white;
+  font-size: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+.home{
+  background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/12kg-AI-ecobubble-with-AI.jpg?$1440_810_JPG$);
+}
+.home a{
+  color: black;
+}
+.home+h1,.rec+h1{
+  text-align: center;
+}
+.rec{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.rec div{
+  width: 270px;
+  height: 570px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 30px;
+}
+.rec p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.rec img{
+  margin-left: 0px;
+}
+.rec button{
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.rec button:hover{
+  opacity: 0.6;
+}
+.plate .i{
+  border-radius: 35px;
+  height: 650px;
+  width: 650px;
+  background-image: url("https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_explore_detail/food-home/da0050-3-hosting-tips-to-alleviate-holiday-stress/da0050_home_explore-banner_pc_684x684.jpg?$684_684_PNG$");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+}
+.i:hover{
+background-size: 105% 105%;
+transition: 0.15s;
+
+}
+.plate{
+ display: flex;
+ justify-content: center;
+margin-bottom: 50px;
+}
+.plate p{
+font-size: 25px;
+margin-left: 25px;
+font-weight: bold;
+}
+.plate a{
+  font-size: 15px;
+  text-decoration: underline;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.ma div p:hover{
+  padding: 19px 0px;
+}
+.ma{
+  padding-top: 75px;
+  transition: p 0.45s;
+  height: 500px;
+}
+.look{
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  margin-bottom: 80px;
+}
+.look div{
+  width: 500px;
+  margin: auto;
+}
+.look input,button{
+  height: 50px;
+  font-size: 25px;
+  border-radius: 27px;
+  border: 1px solid gray;
+}
+.look button{
+  height: 30px;
+  margin: 10px 5px 0px;
+  font-size: 12px;
+  background-color: white;
+}
+.look+section {
+  margin-left: 100px;
+}
+table{
+  width: 95%;
+  height: 150px;
+  margin-left: 50px;
+  border-width: 1px 0px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+thead th{
+  border: 1px solid black;
+}
+tbody a{
+  margin-left: 50px;
+}
+pre{
+  margin-left: 20px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+footer div:first-child{
+  margin-left: 50px;
+}
+footer div:last-child{
+  margin-right: 50px;
+}
+footer div:last-child>img{
+  margin-right: 10px;
+}
